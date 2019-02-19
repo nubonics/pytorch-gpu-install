@@ -20,5 +20,5 @@ conda install pytorch torchvision -c pytorch
 conda install cuda80 -c soumith
 
 # test gpu install
-python -c 'import torch; print(torch.rand(2,3).cuda())'
+python -c "import torch; print(torch.rand(2,3).cuda())"
 ```
